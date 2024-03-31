@@ -2,7 +2,6 @@ import { useEffect, useState, useRef } from "react";
 import { useRouter } from "next/router";
 import { Link } from "react-scroll";
 
-
 /**
  *
  * Navigation for Desktop. It is static. Every <Link> component requires a string and a section id.
@@ -87,27 +86,27 @@ export default function Navigation({
         <ul className="menu">
           <li className="secondary">
             <Link activeClass="active" smooth spy to="home">
-              home
+              Home
             </Link>
           </li>
           <li className="secondary">
             <Link activeClass="active" smooth spy to="expertise">
-              expertise
+              Reflection
             </Link>
           </li>
           <li className="secondary">
             <Link activeClass="active" smooth spy to="work">
-              work
+              Work
             </Link>
           </li>
           <li className="secondary">
             <Link activeClass="active" smooth spy to="experience">
-              experience
+              Experience
             </Link>
           </li>
           <li className="secondary">
             <Link activeClass="active" smooth spy to="contact">
-              contact
+              Internship
             </Link>
           </li>
         </ul>

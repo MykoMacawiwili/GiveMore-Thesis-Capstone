@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react";
 
 /**
  *
- * Home of the app. First page you see 
+ * Home of the app. First page you see
  *
  * @param {String} title - Title of the component.
  * @param {String} subtitle - Subtitle of the component.
@@ -12,9 +12,9 @@ import { useState, useEffect, useRef } from "react";
 
 export default function Home() {
   const [texts] = useState({
-    title: "Umut Yunus Yeşildal",
+    title: "Myko Macawiwili",
     subtitle:
-      "I am a Software Developer focused on drifting with the wind of newly developed tech.<br/><br/> Jack of all trades, master of none, but oftentimes better than a master of one.",
+      "As an ambitious Information Systems college student, I am eager to immerse myself in an environment that cultivates learning and encourages exploration across diverse fields.",
   });
   return (
     <>
@@ -156,7 +156,6 @@ export default function Home() {
           }
         }
 
-
         @media screen AND (min-width: 1921px) {
           .intro .content h1 {
             font-size: 4vw;
@@ -170,7 +169,6 @@ export default function Home() {
         }
 
         @media screen AND (max-width: 526px) {
-
           .intro {
             padding-left: 4vw;
             padding-right: 4vw;

@@ -1,4 +1,3 @@
-
 /**
  *
  * Image Preview component, this component is used at the very first page. Because there is only one image at the whole page, image is static, but you can always change it.
@@ -11,8 +10,13 @@ export default function ImagePreview() {
   return (
     <>
       <div className={`container`}>
-        <img src="/homeImage.png" alt="" />
+        <img
+          src="/homeImage.png"
+          alt=""
+          style={{ maxWidth: "60%", height: "60%" }}
+        />
       </div>
+      <div className={`container`}></div>
       <style jsx>
         {`
           .container {

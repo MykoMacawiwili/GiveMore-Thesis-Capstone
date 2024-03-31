@@ -11,7 +11,6 @@ export default function CommonFooter() {
     <>
       <footer>
         <hr className="solid" />
-        <h2>Built by yesildal.</h2>
       </footer>
       <style jsx>{`
         footer {

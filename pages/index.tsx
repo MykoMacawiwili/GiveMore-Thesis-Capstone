@@ -13,7 +13,7 @@ import parse from "html-react-parser";
 
 export default function Index() {
   const [texts] = useState({
-    title: `Umut Yeşildal`,
+    title: `Digital Portfolio`,
     description: ``,
     head: `<script type="application/ld+json">
     {
@@ -110,7 +110,7 @@ export default function Index() {
         <meta httpEquiv="X-UA-Compatible" content="ie=edge" />
         <title>{texts.title}</title>
         <meta name="description" content={texts.description} />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/icon.png" />
         {parseHead}
       </Head>
       <Navigation />

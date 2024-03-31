@@ -13,7 +13,7 @@ import { useState } from "react";
 export default function Experience() {
   const [texts] = useState({
     title: `<strong>Experience,</strong> where I worked before`,
-    subtitle: `What i have done before, where I worked before and which position i was before`,
+    subtitle: `What I have done before, where I worked before and which position I was before`,
   });
 
   return (

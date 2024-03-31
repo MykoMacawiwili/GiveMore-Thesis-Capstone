@@ -18,7 +18,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default function WorkDesktop() {
   const [texts] = useState({
     title: `<strong>Work,</strong> my previous projects.`,
-    subtitle: "Here are the projects that i have worked on before.",
+    subtitle: "Here are the projects that I have worked on before.",
   });
   const panels = useRef([]);
   const panelsContainer = useRef();
@@ -68,7 +68,7 @@ export default function WorkDesktop() {
                   textAlign: "left",
                 }}
                 dangerouslySetInnerHTML={{
-                  __html: `<strong>Danceflavors</strong> Mobile App`,
+                  __html: `<strong>GiveMore</strong> Web App`,
                 }}
               ></h1>
               <p
@@ -77,22 +77,29 @@ export default function WorkDesktop() {
                   textAlign: "left",
                 }}
               >
-                Worked on Danceflavors app for a year, created frontend for the
-                app, took a part in designing and implementing the architecture
-                of the backend. Mainly used Flutter and Dart programming
-                language, Hive and SQFLite for database, BLoC for state
-                management.
+                Developed aplatform-as-a-service (PaaS) “GiveMore” that connects
+                donors withcharitable organizations, facilitating seamless
+                contributions and fostering positive change in communities.
+                Incorporated responsive design principles such as HTML, CSS, and
+                JavaScript to create an intuitive and visually appealing
+                interface.
               </p>
               <div className="box">
-                <a href="https://www.danceflavors.com/">
+                <a href="https://isproj2.vercel.app/">
                   {" "}
                   <button>
                     <span>Website </span>
                   </button>
                 </a>
+
+                <a href="https://github.com/MykoMacawiwili/GiveMore-Thesis-Capstone">
+                  {" "}
+                  <button>
+                    <span>Github </span>
+                  </button>
+                </a>
               </div>
             </div>
-            <img src="/work/danceflavors_app.png" alt="DanceFlavors App" />
           </section>
           <section className="panel orange" ref={(e) => createPanelsRefs(e, 2)}>
             <div className="content">
@@ -102,7 +109,7 @@ export default function WorkDesktop() {
                   textAlign: "left",
                 }}
                 dangerouslySetInnerHTML={{
-                  __html: `<strong>Metavest</strong> Website`,
+                  __html: `<strong>Tic Tac Toe</strong> Android App`,
                 }}
               ></h1>
               <p
@@ -111,22 +118,21 @@ export default function WorkDesktop() {
                   textAlign: "left",
                 }}
               >
-                Worked on metavest.app website, created bunch of pages and
-                components with the care of responsive design. Mainly used
-                Reactjs and Nextjs along with CSS and HTML, used Strapi for CMS
-                and localization.
+                Developed a Tic Tac Toe game through the use of android studio
+                and kotlin. This was our finals for our mobile development
+                subject, we decided to create a 2 player tic tac toe
+                application. To showcase our learnings throughout the subject.
               </p>
               <div className="box">
-                <a href="https://metavest.app/">
+                <a href="https://github.com/MykoMacawiwili/MOBDEVTFINALS">
                   <button
                     style={{ backgroundColor: "#3f4399", color: "#FFFFFF" }}
                   >
-                    <span>Website </span>
+                    <span>Github </span>
                   </button>
                 </a>
               </div>
             </div>
-            <img src="/work/metavest.png" alt="Metavest App" />
           </section>
           <section className="panel green" ref={(e) => createPanelsRefs(e, 3)}>
             <div className="content">
@@ -136,7 +142,7 @@ export default function WorkDesktop() {
                   textAlign: "left",
                 }}
                 dangerouslySetInnerHTML={{
-                  __html: `<strong>DaiDay</strong> Mobile App`,
+                  __html: `<strong>Back up to the front</strong> Web App`,
                 }}
               ></h1>
               <p
@@ -145,14 +151,13 @@ export default function WorkDesktop() {
                   textAlign: "left",
                 }}
               >
-                Created my first solo Mobile app and published it on Google Play
-                Store, even though it is not perfect i am proud of my work and
-                that i learned it all by myself during University. Mainly used
-                Flutter and Dart programming language, Hive and SQFLite for
-                database, BLoC for state management.
+                Created my first web application through the use of C#. I
+                learned and made it during our class of Enterprise Programming,
+                with two of my other colleagues. An application of what we have
+                learned throughout the term.
               </p>
               <div className="box">
-                <a href="https://github.com/umutyesildal/daiday">
+                <a href="https://github.com/MykoMacawiwili/ENTPROG-FINALS">
                   <button
                     style={{ backgroundColor: "#2f3640", color: "#44bd32" }}
                   >
@@ -161,7 +166,6 @@ export default function WorkDesktop() {
                 </a>
               </div>
             </div>
-            <img style={{}} src="/work/daiday.png" alt="DanceFlavors App" />
           </section>
           <section className="panel purple" ref={(e) => createPanelsRefs(e, 4)}>
             <div className="content">
@@ -172,7 +176,7 @@ export default function WorkDesktop() {
                   textAlign: "left",
                 }}
                 dangerouslySetInnerHTML={{
-                  __html: `<strong>Mercedes</strong> Assist App`,
+                  __html: `<strong>Fast-Med</strong> Web App`,
                 }}
               ></h1>
               <p
@@ -182,48 +186,15 @@ export default function WorkDesktop() {
                   textAlign: "left",
                 }}
               >
-                During joint lecture between TAU and Mercedes Turkey, I had the
-                chance to meet with executives and find a solution to a problem
-                Mercedes is having. Assistify is focused on solving Mercedes car
-                users problems via Mobile App.
+                Created a web application through the use of java. Similar to my
+                previous web application project, we made a web application with
+                CRUD and login. By leveraging Java's robust frameworks, we were
+                able to efficiently build a web application that meets the
+                subject's requirements.
               </p>
               <div className="box">
-                <a href="https://github.com/umutyesildal/mercedes-assistify">
+                <a href="https://github.com/MykoMacawiwili/Fast-Med-APPADVC">
                   {" "}
-                  <button>
-                    <span>Github </span>
-                  </button>
-                </a>
-              </div>
-            </div>
-            <div
-              style={{ paddingLeft: "50px", alignItems: "space-around" }}
-              className="content"
-            >
-              <h1
-                style={{
-                  color: "#2d3436",
-                  width: "clamp(36vw, 36vw, 1100.92px)",
-                  textAlign: "left",
-                }}
-                dangerouslySetInnerHTML={{
-                  __html: `<strong>Sharify</strong> Mobile App`,
-                }}
-              ></h1>
-              <p
-                style={{
-                  color: "#2d3436",
-                  width: "clamp(36vw, 36vw, 1100.92px)",
-                  textAlign: "left",
-                }}
-              >
-                Sharify is focused on preventing the product and food waste by
-                connecting people in need. Just join and create a card
-                describing the item or food you are willing to give away or
-                check out cards to find anything you need!
-              </p>
-              <div className="box">
-                <a href="https://github.com/umutyesildal/sharify">
                   <button>
                     <span>Github </span>
                   </button>
@@ -236,23 +207,18 @@ export default function WorkDesktop() {
               <h1
                 style={{ color: "#bae374" }}
                 dangerouslySetInnerHTML={{
-                  __html: `<strong>More,</strong> checkout more at links below`,
+                  __html: `<strong>My profile?</strong> checkout more at the links below`,
                 }}
               ></h1>
               <div className="box2">
-                <a href="https://github.com/umutyesildal/yesildal.me">
+                <a href="https://www.linkedin.com/in/myko-macawiwili-28ab80261/">
                   <button>
-                    <span>Yesildal.me </span>
+                    <span>Linkedin</span>
                   </button>
                 </a>
-                <a href="https://github.com/umutyesildal/Seppuku_NFT">
+                <a href="https://github.com/MykoMacawiwili">
                   <button>
-                    <span>Seppuku NFT </span>
-                  </button>
-                </a>
-                <a href="https://github.com/umutyesildal/coinTicker">
-                  <button>
-                    <span>Coin Ticker </span>
+                    <span>Github</span>
                   </button>
                 </a>
               </div>

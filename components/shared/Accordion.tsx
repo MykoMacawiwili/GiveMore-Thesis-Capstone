@@ -18,24 +18,28 @@ export default function SimpleAccordion() {
   const [questions] = useState({
     questions: [
       {
-        questionTitle: "Entrepreneur İTÜ Çekirdek Jan2020-June2020",
+        questionTitle:
+          "Google Developer Student Clubs Benilde - Operations Team Member | May 2023-August 2023",
         questionDescription:
-          'Learned the fundamentals of entrepreneurship. Taken various seminars from İTÜ Çekirdek Mentors and found the opportunity to do meetings with these Mentors. Worked at a time management project called "Crillo" and earned 10.000$ worth of credit from İTÜ Çekirdek.',
+          " Played a keyrole in coordinating and optimizing events and logistics for a vibrant community of technology enthusiasts at De La Salle-College of Saint Benilde.",
       },
       {
-        questionTitle: "Intern Vendrops Technologies Sep2020-Mar2021",
+        questionTitle:
+          "Association of Information Management Benilde- Logistics Team Member | August 2021-December 2021",
         questionDescription:
-          "I learned the fundamental parts of the backend web programming using Node.js, Express.js, Gatsby.js. I created a Documentation page of the product using Gatsby.js.I learned the fundamentals of Testing. I learned and used Whitebox Testing, Blackbox Testing, Monkey Testing, Unit Testing and used them when testing the project. I helped the team in the creation of Facilera Tasks App by flutter development, bug fixing and testing.Learned the real life usage of Agile Methodology and SCRUM.",
+          "Contributed to the effcient planning and execution of events,ensuring smooth logistics for the organization",
       },
       {
-        questionTitle: "Flutter Developer Platri IT GmbH Feb2021-Jan2022",
+        questionTitle:
+          "Justino Corporation - On-the-Job Trainee | January 2020-February 2020",
         questionDescription:
-          "Worked at some projects called “DanceFlavors”,”Signalficant”, ”Nimag” at Platri GmbH. Working with BLoC, state management and Null Safety since the start of the project. Using the package system and creating my own packages in order to have cleaner code and making the packages continually usable for other projects. Using multiple local databases for different needs so that each database has their own usage. For Key-Value Pair i used Hive and for SQL database i used SQFLite.",
+          "Contributed to company inventory andaccounting processes, gaining hands-on experience in managing and optimizing key business functions.",
       },
       {
-        questionTitle: "Software Developer Metavest Mar2022-Still",
+        questionTitle:
+          "Gallium31 - Full Stack Developer Intern | January 2024-March 2024",
         questionDescription:
-          "Currently working at Metavest as a software developer, mostly focused on creating front-end pages using react and javascript and creating micro-packages for various purposes with python and javascript.",
+          "Utilized Figma, Node.js, and React to develop dynamic and interactive front-end interfaces. Leveraging Docker for containerization, ensuring scalability and efficiency. Additionally, I employed Material UI with Tailwind CSS to craft responsive and visually appealing designs. Gaining Experience in an office environment.",
       },
     ],
   });
